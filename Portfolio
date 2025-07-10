@@ -90,7 +90,7 @@
 <body>
 
   <header>
-    <h1>Your Name</h1>
+    <h1>Rakesh Mistri</h1>
     <p>Web Developer | Designer | Programmer</p>
   </header>
 
@@ -138,13 +138,13 @@
 
   <section id="contact" class="contact">
     <h2>Contact</h2>
-    <p>Email: youremail@example.com</p>
+    <p>Email:rakesh@gmail.com</p>
     <p>Phone: +91-XXXXXXXXXX</p>
     <p>LinkedIn: <a href="#" target="_blank">linkedin.com/in/yourprofile</a></p>
   </section>
 
   <footer>
-    <p>&copy; 2025 Your Name. All rights reserved.</p>
+    <p>&copy; 2025 Rakesh Mistri. All rights reserved.</p>
   </footer>
 
 </body>
