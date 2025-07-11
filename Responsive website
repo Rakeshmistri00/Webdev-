@@ -1,0 +1,101 @@
+(1: HTML part):
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive Website</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <h1>My Responsive Website</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Services</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="content">
+      <h2>Welcome!</h2>
+      <p>This website adjusts its layout based on screen size.</p>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 My Website</p>
+  </footer>
+</body>
+</html>
+
+
+(2: CSS part):
+
+
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #333;
+  color: white;
+  padding: 1rem;
+  text-align: center;
+}
+
+nav {
+  margin-top: 10px;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+main {
+  padding: 1rem;
+}
+
+.content {
+  max-width: 800px;
+  margin: auto;
+}
+
+
+@media (min-width: 768px) {
+  nav {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+
+@media (min-width: 1024px) {
+  body {
+    background-color: #f0f0f0;
+  }
+
+  header {
+    text-align: left;
+    padding: 2rem;
+  }
+
+  nav {
+    justify-content: flex-end;
+  }
+
+  .content {
+    display: flex;
+    gap: 2rem;
+  }
+
+  .content p {
+    flex: 1;
+  }
+}
